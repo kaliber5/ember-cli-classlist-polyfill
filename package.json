@@ -1,24 +1,29 @@
 {
   "name": "ember-cli-classlist-polyfill",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Includes a polyfill for classlist if needed",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "classlist",
+    "polyfill"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Simon Ihmig <ihmig@kaliber5.de>",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/kaliber5/ember-cli-classlist-polyfill",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.3.0"
+    "broccoli-funnel": "^1.2.0",
+    "classlist-polyfill": "^1.2.0",
+    "ember-cli-babel": "^6.3.0",
+    "fastboot-transform": "^0.1.2"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
