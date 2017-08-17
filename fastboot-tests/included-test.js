@@ -26,7 +26,7 @@ describe('Include polyfill', function() {
       .then(function(res) {
         let body = res.response.body;
 
-        expect(body.includes('classList')).to.be.true;
+        expect(body.includes('classList.js')).to.be.true;
       });
   });
 

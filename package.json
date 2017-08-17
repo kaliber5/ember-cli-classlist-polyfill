@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "broccoli-funnel": "^1.2.0",
+    "caniuse-api": "^2.0.0",
     "classlist-polyfill": "^1.2.0",
     "ember-cli-babel": "^6.3.0",
     "fastboot-transform": "^0.1.2"

@@ -25,7 +25,7 @@ describe('Exclude polyfill', function() {
       .then(function(res) {
         let body = res.response.body;
 
-        expect(body.includes('classList')).to.be.false;
+        expect(body.includes('classList.js')).to.be.false;
       });
   });
 
