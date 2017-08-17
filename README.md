@@ -1,26 +1,13 @@
 # ember-cli-classlist-polyfill
 
-This README outlines the details of collaborating on this Ember addon.
+Ember-CLI addon to add a polyfill for the `classList` DOM property, based on 
+[classlist-polyfill](https://github.com/yola/classlist-polyfill).
+
+Internet Explorer 9 and lower do not support `classList`, while IE 10 + 11 have incomplete support. 
+See full [browser support details](http://caniuse.com/#feat=classlist).
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-cli-classlist-polyfill`
-* `npm install`
-
-## Running
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-## Running Tests
-
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+```bash
+ember install ember-cli-classlist-polyfill
+```
