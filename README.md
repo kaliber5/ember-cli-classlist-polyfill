@@ -1,5 +1,9 @@
 # ember-cli-classlist-polyfill
 
+[![Build Status](https://travis-ci.org/kaliber5/ember-cli-classlist-polyfill.svg?branch=master)](https://travis-ci.org/kaliber5/ember-cli-classlist-polyfill)
+[![Ember Observer Score](https://emberobserver.com/badges/ember-cli-classlist-polyfill.svg)](https://emberobserver.com/addons/ember-cli-classlist-polyfill)
+[![npm version](https://badge.fury.io/js/ember-cli-classlist-polyfill.svg)](https://badge.fury.io/js/ember-cli-classlist-polyfill)
+
 Ember-CLI addon to add a polyfill for the [Element.classList](https://developer.mozilla.org/de/docs/Web/API/Element/classList)
 property, based on [classlist-polyfill](https://github.com/yola/classlist-polyfill).
 
