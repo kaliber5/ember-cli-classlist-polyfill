@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-classlist-polyfill",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Includes a polyfill for classlist if needed",
   "keywords": [
     "ember-addon",
