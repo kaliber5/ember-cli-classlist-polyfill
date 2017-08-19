@@ -34,15 +34,6 @@ module.exports = {
     }
   },
 
-  _findHost() {
-    let current = this;
-    let app;
-    do {
-      app = current.app || app;
-    } while (current.parent.parent && (current = current.parent));
-    return app;
-  },
-
   treeForVendor() {
     let modulePath = path.dirname(require.resolve('classlist-polyfill'));
     let vendorTree = new Funnel(modulePath, {
