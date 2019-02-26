@@ -16,7 +16,7 @@ function findHostShim() {
 }
 
 module.exports = {
-  name: 'ember-cli-classlist-polyfill',
+  name: require('./package').name,
 
   included() {
     if (this.shouldImportPolyfill()) {
